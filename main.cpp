@@ -5,6 +5,7 @@
 #include "lattice.hpp"
 #include "offlattice.hpp"
 #include "biaslattice.hpp"
+#include "walk.hpp"
 
 using namespace std;
 
