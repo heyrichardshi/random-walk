@@ -50,25 +50,25 @@ void Walk::push() {
 }
 
 void Walk::step() {
-    if (lattice) {
+    if (_lattice) {
         switch (RandomInt(1, 6)) {
             case 1:
-                x += a;
+                _x += a;
                 break;
             case 2:
-                x -= a;
+                _x -= a;
                 break;
             case 3:
-                y += a;
+                _y += a;
                 break;
             case 4:
-                y -= a;
+                _y -= a;
                 break;
             case 5:
-                z += a;
+                _z += a;
                 break;
             case 6:
-                z -= a;
+                _z -= a;
         }
     }
     else {
